@@ -161,7 +161,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 470px) and (orientation: portrait) {
+@media only screen and (max-width: 470px), (orientation: portrait) {
   .main-banner {
     height: 15rem;
   }
